@@ -1,2 +1,1 @@
-# stock
-create homepage
+# stockresearch.github.io

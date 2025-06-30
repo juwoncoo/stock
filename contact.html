@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>문의 - SR 주가예측연구회</title>
+  <link rel="icon" href="homepage_image/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="SR 주가예측연구회 문의 페이지">
+</head>
+<body>
+  <div class="bg-wrap">
+    <div class="bg-overlay"></div>
+    <header class="main-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo-link">
+          <img src="homepage_image/logo.png" alt="SR 주가예측연구회 로고" class="logo-img">
+        </a>
+        <nav class="main-nav">
+          <a href="index.html">홈</a>
+          <a href="about.html">학회소개</a>
+          <a href="members.html">멤버소개</a>
+          <a href="gallery.html">활동갤러리</a>
+          <a href="contact.html" class="active">문의</a>
+        </nav>
+      </div>
+    </header>
+    <div class="header-content">
+      <h2>문의</h2>
+      <p>가입 및 문의는 아래 이메일로 연락해 주세요.<br>
+      <b>Email:</b> ooo@yourdomain.com<br>
+      <b>Instagram:</b> <a href="https://instagram.com/yourid" target="_blank">@yourid</a>
+      </p>
+      <!-- 서버 없이, 문의 폼은 이메일 mailto로 대신 -->
+      <form action="mailto:ooo@yourdomain.com" method="post" enctype="text/plain">
+        <label>이름: <input type="text" name="name" required></label><br><br>
+        <label>이메일: <input type="email" name="email" required></label><br><br>
+        <label>문의 내용:<br>
+          <textarea name="message" rows="5" cols="30" required></textarea>
+        </label><br><br>
+        <button type="submit">이메일로 문의 보내기</button>
+      </form>
+    </div>
+    <footer>
+      &copy; SR 주가예측연구회
+    </footer>
+  </div>
+</body>
+</html>
